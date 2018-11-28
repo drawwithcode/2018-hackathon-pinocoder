@@ -44,7 +44,7 @@ function draw() {
 
   textFont('Karla');
   fill(255, 255, 0)
-  textSize(24);
+  textSize(volume);
   text('DARK — by Baran bo Odar and Jantje Friese', 50, 100);
 
   // mySong.amp(0.5);
