@@ -45,7 +45,12 @@ function draw() {
   textFont('Karla');
   fill(255, 255, 0)
   textSize(volume);
-  text('DARK — by Baran bo Odar and Jantje Friese', 50, 100);
+  text('DARK — by Baran bo Odar and Jantje Friese', 50, windowHeight/5);
+
+  textFont('Karla');
+  fill(255, 255, 0)
+  textSize(18);
+  text('a Netflix original series', 50, windowHeight/1.5);
 
   // mySong.amp(0.5);
   // mySong.rate(2);
